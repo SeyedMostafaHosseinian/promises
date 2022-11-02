@@ -25,7 +25,7 @@ function displayData(data) {
     })
 }
 
-///// convert callbacks
+///// convert callbacks to promises
 function displayData2(data) {
     data.map(item => {
         console.log(item)
